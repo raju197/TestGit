@@ -9,23 +9,15 @@ namespace Calculator
     class Program
 
     {
-        public static int sub(int a, int b)
-        {
-
-            return a - b;
-        }
-        public static int mul(int a, int b)
-        {
-
-            return a * b;
-        }
-        public static int add(int a , int b) {
+        
+        public static int addition(int a , int b) {
 
             return a + b;
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(add(10 , 20);
+            Console.WriteLine(addition(10 , 20));
+            Console.WriteLine("this is as important as eating");
             Console.ReadLine();
         }
     }
